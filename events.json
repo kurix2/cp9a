@@ -2,8 +2,8 @@
   {
     "id": "tokyo-auto-salon-2026",
     "title": "Tokyo Auto Salon 2026",
-    "description": "Japan’s biggest custom and tuning car show.",
-    "categories": ["show", "festival", "tuning"],
+    "description": "Japan’s biggest custom and tuning car show at Makuhari Messe.",
+    "categories": ["show", "festival", "other"],
     "startDateTime": "2026-01-09T14:00:00+09:00",
     "endDateTime": "2026-01-11T18:00:00+09:00",
     "venueName": "Makuhari Messe",
@@ -15,168 +15,109 @@
     "isTouristFriendly": true,
     "isSpectatorOnly": true,
     "allowsParticipants": false,
+    "audience": "public_spectator",
     "fees": {
       "spectator": {
         "amount": 3000,
         "currency": "JPY",
-        "notes": "Estimate based on published prices. Confirm on official site."
+        "notes": "Typical one-day general admission; confirm exact ticket type and day on official site."
       }
-    }
+    },
+    "languageSupport": ["ja", "en"]
   },
   {
     "id": "osaka-auto-messe-2026",
     "title": "Osaka Auto Messe 2026",
-    "description": "Western Japan's premier custom car event showcasing dress-up culture and tuning trends.",
-    "categories": ["show", "tuning", "festival"],
+    "description": "Custom car and tuning show held at Intex Osaka.",
+    "categories": ["show", "festival", "other"],
     "startDateTime": "2026-02-13T09:00:00+09:00",
     "endDateTime": "2026-02-15T18:00:00+09:00",
-    "venueName": "INTEX Osaka",
+    "venueName": "Intex Osaka",
     "prefecture": "Osaka",
     "cityOrArea": "Osaka",
-    "googleMapsUrl": "https://www.google.com/maps?q=INTEX+Osaka",
-    "websiteUrl": "https://www.automesse.jp/en/",
-    "organizerName": "Osaka Auto Messe Executive Committee",
+    "googleMapsUrl": "https://www.google.com/maps?q=Intex+Osaka",
+    "websiteUrl": "https://www.automesse.jp/",
+    "organizerName": "Osaka Auto Messe Association",
     "isTouristFriendly": true,
     "isSpectatorOnly": true,
     "allowsParticipants": false,
-    "fees": {
-      "spectator": {
-        "amount": 2700,
-        "currency": "JPY",
-        "notes": "Advance ticket price from previous year. Confirm on official site."
-      }
-    }
-  },
-  {
-    "id": "wekfest-japan-2026",
-    "title": "Wekfest Japan 2026",
-    "description": "Internationally known show for stance and performance builds. Hosted at Nagoya’s Port Messe.",
-    "categories": ["stance", "show", "lifestyle"],
-    "startDateTime": "2026-05-03T11:00:00+09:00",
-    "endDateTime": "2026-05-03T18:00:00+09:00",
-    "venueName": "Port Messe Nagoya",
-    "prefecture": "Aichi",
-    "cityOrArea": "Nagoya",
-    "googleMapsUrl": "https://www.google.com/maps?q=Port+Messe+Nagoya",
-    "websiteUrl": "https://www.wekfest-usa.com/event-information-wekfest-japan",
-    "organizerName": "Wekfest USA",
-    "isTouristFriendly": true,
-    "isSpectatorOnly": true,
-    "allowsParticipants": false,
-    "fees": {
-      "spectator": {
-        "amount": 4000,
-        "currency": "JPY",
-        "notes": "Same-day admission. Confirm on official site."
-      }
-    }
-  },
-  {
-    "id": "attack-tsukuba-2026",
-    "title": "Shiba Tire presents Attack Tsukuba 2026",
-    "description": "Japan's premier grassroots time attack event for high-performance tuners.",
-    "categories": ["track", "time-attack"],
-    "startDateTime": "2026-02-14T09:00:00+09:00",
-    "endDateTime": "2026-02-14T16:00:00+09:00",
-    "venueName": "Tsukuba Circuit",
-    "prefecture": "Ibaraki",
-    "cityOrArea": "Shimotsuma",
-    "googleMapsUrl": "https://www.google.com/maps?q=Tsukuba+Circuit",
-    "websiteUrl": "https://www.timeattack.co.jp/attack/attack-tsukuba-2026",
-    "organizerName": "Attack Executive Committee",
-    "isTouristFriendly": true,
-    "isSpectatorOnly": false,
-    "allowsParticipants": true,
-    "fees": {
-      "spectator": {
-        "amount": 2000,
-        "currency": "JPY",
-        "notes": "General admission. Confirm on official site."
-      }
-    }
-  },
-  {
-    "id": "odaiba-itasha-heaven-2026",
-    "title": "Odaiba Itasha Heaven 2026",
-    "description": "Massive outdoor itasha car gathering in Tokyo’s Odaiba district.",
-    "categories": ["itasha", "anime", "show"],
-    "startDateTime": "2026-03-29T09:30:00+09:00",
-    "endDateTime": "2026-03-29T16:00:00+09:00",
-    "venueName": "Odaiba Aomi Special Event Park",
-    "prefecture": "Tokyo",
-    "cityOrArea": "Odaiba",
-    "googleMapsUrl": "https://www.google.com/maps?q=35.623333,139.776596",
-    "websiteUrl": "https://itasha-tengoku.yaesu-net.co.jp/",
-    "organizerName": "Yaesu Planning Co.",
-    "isTouristFriendly": true,
-    "isSpectatorOnly": false,
-    "allowsParticipants": true,
-    "fees": {
-      "spectator": {
-        "amount": 1800,
-        "currency": "JPY",
-        "notes": "At the gate. Discounts for cosplay or photo passes."
-      },
-      "participant": {
-        "amount": 3500,
-        "currency": "JPY",
-        "notes": "Vehicle entry requires prior application."
-      }
-    }
-  },
-  {
-    "id": "mooneyes-street-car-nationals-2026",
-    "title": "Mooneyes Street Car Nationals 2026",
-    "description": "Tokyo’s largest gathering of hot rods, muscle cars, and lowriders.",
-    "categories": ["classic", "lowrider", "hot-rod", "meet"],
-    "startDateTime": "2026-05-24T09:00:00+09:00",
-    "endDateTime": "2026-05-24T15:00:00+09:00",
-    "venueName": "Odaiba Aomi NOP Area",
-    "prefecture": "Tokyo",
-    "cityOrArea": "Odaiba",
-    "googleMapsUrl": "https://www.google.com/maps?q=35.623333,139.776596",
-    "websiteUrl": "http://www.mooneyes.co.jp/street-carnats/",
-    "organizerName": "Mooneyes Japan",
-    "isTouristFriendly": true,
-    "isSpectatorOnly": false,
-    "allowsParticipants": true,
-    "fees": {
-      "spectator": {
-        "amount": 1650,
-        "currency": "JPY",
-        "notes": "Gate entry only."
-      }
-    }
+    "audience": "public_spectator",
+    "languageSupport": ["ja"]
   },
   {
     "id": "nagoya-auto-festival-2026",
     "title": "Nagoya Auto Festival 2026",
-    "description": "Indoor event for itasha, tuning, and show-style builds at Port Messe Nagoya.",
-    "categories": ["show", "tuning", "itasha"],
+    "description": "Dress-up and custom car festival at Port Messe Nagoya.",
+    "categories": ["show", "festival", "other"],
     "startDateTime": "2026-03-14T10:00:00+09:00",
     "endDateTime": "2026-03-15T17:00:00+09:00",
     "venueName": "Port Messe Nagoya",
     "prefecture": "Aichi",
     "cityOrArea": "Nagoya",
     "googleMapsUrl": "https://www.google.com/maps?q=Port+Messe+Nagoya",
-    "websiteUrl": "http://n-autofestival.jp/",
-    "organizerName": "Nagoya Auto Festival Committee",
+    "websiteUrl": "https://www.n-autofes.com/",
+    "organizerName": "Nagoya Auto Festival Executive Committee",
+    "isTouristFriendly": true,
+    "isSpectatorOnly": true,
+    "allowsParticipants": false,
+    "audience": "public_spectator",
+    "languageSupport": ["ja"]
+  },
+  {
+    "id": "attack-tsukuba-2026",
+    "title": "Shibatire presents Attack Tsukuba 2026",
+    "description": "Japan’s premier time attack event at Tsukuba Circuit Course 2000.",
+    "categories": ["track", "time_attack"],
+    "startDateTime": "2026-02-14T08:00:00+09:00",
+    "endDateTime": "2026-02-14T16:00:00+09:00",
+    "venueName": "Tsukuba Circuit Course 2000",
+    "prefecture": "Ibaraki",
+    "cityOrArea": "Shimotsuma",
+    "googleMapsUrl": "https://www.google.com/maps?q=Tsukuba+Circuit+Course+2000",
+    "websiteUrl": "https://www.timeattack.co.jp/attack/attack-tsukuba-2026",
+    "organizerName": "Attack / Japan Time Attack Promotion",
     "isTouristFriendly": true,
     "isSpectatorOnly": false,
     "allowsParticipants": true,
+    "audience": "mixed",
     "fees": {
       "spectator": {
-        "amount": 2500,
+        "amount": 2000,
         "currency": "JPY",
-        "notes": "Door price. Free for kids below elementary school age."
+        "notes": "General admission; parking fee separate. High school students and younger free."
+      },
+      "driver": {
+        "amount": 48500,
+        "currency": "JPY",
+        "notes": "Representative entry fee; see official classes and pricing on Attack site."
       }
-    }
+    },
+    "languageSupport": ["ja", "en"]
   },
   {
-    "id": "aichi-auto-messe-2026",
-    "title": "Aichi Auto Messe 2026",
-    "description": "Spinoff event of Osaka Auto Messe, showcasing tuning and dress-up cars.",
-    "categories": ["show", "tuning", "dress-up"],
+    "id": "wekfest-japan-2026",
+    "title": "Wekfest Japan 2026",
+    "description": "High-end stance and show-car event at Port Messe Nagoya.",
+    "categories": ["stance", "show", "festival"],
+    "startDateTime": "2026-05-03T10:00:00+09:00",
+    "endDateTime": "2026-05-03T16:00:00+09:00",
+    "venueName": "Port Messe Nagoya",
+    "prefecture": "Aichi",
+    "cityOrArea": "Nagoya",
+    "googleMapsUrl": "https://www.google.com/maps?q=Port+Messe+Nagoya",
+    "websiteUrl": "https://www.wekfest-japan.jp/",
+    "organizerName": "Wekfest",
+    "isTouristFriendly": true,
+    "isSpectatorOnly": true,
+    "allowsParticipants": false,
+    "audience": "public_spectator",
+    "languageSupport": ["ja", "en"]
+  },
+  {
+    "id": "auto-messe-aichi-2026",
+    "title": "Auto Messe in Aichi 2026",
+    "description": "Regional auto show at Aichi Sky Expo.",
+    "categories": ["show", "festival", "other"],
     "startDateTime": "2026-05-16T10:00:00+09:00",
     "endDateTime": "2026-05-17T18:00:00+09:00",
     "venueName": "Aichi Sky Expo",
@@ -184,93 +125,56 @@
     "cityOrArea": "Tokoname",
     "googleMapsUrl": "https://www.google.com/maps?q=Aichi+Sky+Expo",
     "websiteUrl": "https://www.automesse.jp/aichi/",
-    "organizerName": "Osaka Auto Messe Association",
+    "organizerName": "Auto Messe in Aichi Organizing Committee",
     "isTouristFriendly": true,
     "isSpectatorOnly": true,
     "allowsParticipants": false,
-    "fees": {
-      "spectator": {
-        "amount": 2000,
-        "currency": "JPY",
-        "notes": "Same-day ticket. Free for kids under 13."
-      }
-    }
-  }
-   {
-    "id": "gunsai-attack-2025-mad-attack",
-    "title": "GUNSAI ATTACK 2025 ~Mad Attack~",
-    "description": "Hardcore Tokyo and Team PROPS touge drift event at Gunsai (Gunma Cycle Sports Center) featuring Mad Mike. General admission free; parking fee required.",
-    "categories": ["drift", "touge", "festival"],
-    "startDateTime": "2025-05-18T09:30:00+09:00",
-    "endDateTime": "2025-05-18T16:00:00+09:00",
-    "venueName": "Gunma Cycle Sports Center (Gunsai Touge)",
-    "prefecture": "Gunma",
-    "cityOrArea": "Minakami",
-    "googleMapsUrl": "https://www.google.com/maps?q=Gunma+Cycle+Sports+Center",
-    "websiteUrl": "https://www.facebook.com/events/%E7%BE%A4%E9%A6%AC%E3%82%B5%E3%82%A4%E3%82%AF%E3%83%AB%E3%82%B9%E3%83%9D%E3%83%BC%E3%83%84%E3%82%BB%E3%83%B3%E3%82%BF%E3%83%BC/gunsai-attack-2025-mad-attack/1425360881763209/",
-    "organizerName": "HARDCORE TOKYO / Team PROPS",
-    "isTouristFriendly": true,
-    "isSpectatorOnly": false,
-    "allowsParticipants": true,
-    "fees": {
-      "spectator": {
-        "amount": 0,
-        "currency": "JPY",
-        "notes": "General admission free; parking around 1000 JPY per car (check latest info)."
-      },
-      "parking": {
-        "amount": 1000,
-        "currency": "JPY",
-        "notes": "Per car, based on official announcement for 2025 event."
-      }
-    }
+    "audience": "public_spectator",
+    "languageSupport": ["ja"]
   },
   {
-    "id": "fuji-marupa-free-run-butcher-2025-12-08",
-    "title": "Fuji Marupa 1-Day Free Run feat. Butcher Style Racing",
-    "description": "All-day free run event at Fuji Speedway Multi-Purpose (Marupa) course featuring Butcher Style Racing. Drift and grip practice, casual track-day format.",
-    "categories": ["drift", "grip", "track-day"],
+    "id": "butcher-fuji-marupa-free-run-2025-12-08",
+    "title": "Fuji Marupa Free Run feat. Butcher Style Racing",
+    "description": "All-day free-run track day at Fuji Speedway Maruma Multi Purpose Course with Butcher Style Racing.",
+    "categories": ["track", "drift", "other"],
     "startDateTime": "2025-12-08T08:00:00+09:00",
     "endDateTime": "2025-12-08T16:30:00+09:00",
-    "venueName": "Fuji Speedway Multi-Purpose Driving Course (Marupa)",
+    "venueName": "Fuji Speedway Maruma Multi Purpose Course",
     "prefecture": "Shizuoka",
-    "cityOrArea": "Oyama, Sunto District",
-    "googleMapsUrl": "https://www.google.com/maps?q=Fuji+Speedway+Multi+Purpose+Driving+Course",
+    "cityOrArea": "Oyama",
+    "googleMapsUrl": "https://www.google.com/maps?q=Fuji+Speedway+Maruma+Multi+Purpose+Course",
     "websiteUrl": "https://soukoukai-search.onesgarage.com/event/6059",
-    "organizerName": "One’s Garage / Butcher Style Racing",
-    "isTouristFriendly": true,
+    "organizerName": "One's Garage / Butcher Style Racing",
+    "isTouristFriendly": false,
     "isSpectatorOnly": false,
     "allowsParticipants": true,
+    "audience": "participants_only",
     "fees": {
       "participant": {
         "amount": 8000,
         "currency": "JPY",
-        "notes": "All-day free run entry fee as advertised; confirm details and payment method on the event page."
+        "notes": "All-day free-run participation fee; confirm details with organizer."
       }
-    }
+    },
+    "languageSupport": ["ja"]
   },
   {
     "id": "wonders-games-2026-nikko",
     "title": "WONDERS GAMES 2026",
-    "description": "Hardcore Tokyo-hosted car event at Nikko Circuit. Drift and time-attack focused lifestyle meet with Hardcore Tokyo’s usual vibe and cars.",
-    "categories": ["drift", "track-day", "festival"],
+    "description": "Multi-genre custom car and bike event in the Nikko area, hosted by HARDCORE Tokyo and partners.",
+    "categories": ["drift", "stance", "festival"],
     "startDateTime": "2026-01-12T09:00:00+09:00",
     "endDateTime": "2026-01-12T16:00:00+09:00",
-    "venueName": "Nikko Circuit",
+    "venueName": "Nikko Area (circuit / event venue)",
     "prefecture": "Tochigi",
-    "cityOrArea": "Utsunomiya area",
+    "cityOrArea": "Nikko",
     "googleMapsUrl": "https://www.google.com/maps?q=Nikko+Circuit",
-    "websiteUrl": "https://www.facebook.com/events/nikko-circuit/wonders-games-2026/1176774041052121/",
-    "organizerName": "HARDCORE TOKYO",
-    "isTouristFriendly": true,
+    "websiteUrl": "https://hardcoretokyo.com/",
+    "organizerName": "HARDCORE Tokyo",
+    "isTouristFriendly": false,
     "isSpectatorOnly": false,
     "allowsParticipants": true,
-    "fees": {
-      "spectator": {
-        "amount": null,
-        "currency": "JPY",
-        "notes": "Spectator/parking details not clearly listed yet; check the Facebook event closer to the date."
-      }
-    }
+    "audience": "mixed",
+    "languageSupport": ["ja"]
   }
 ]
