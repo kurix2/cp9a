@@ -1,0 +1,24 @@
+[
+  {
+    "id": "tokyo-auto-salon-2026",
+    "title": "Tokyo Auto Salon 2026",
+    "description": "Japan’s biggest custom and tuning car show.",
+    "categories": ["show", "festival", "tuning"],
+    "startDateTime": "2026-01-09T14:00:00+09:00",
+    "endDateTime": "2026-01-11T18:00:00+09:00",
+    "venueName": "Makuhari Messe",
+    "prefecture": "Chiba",
+    "cityOrArea": "Chiba",
+    "googleMapsUrl": "https://www.google.com/maps?q=Makuhari+Messe",
+    "websiteUrl": "https://www.tokyoautosalon.jp/2026/",
+    "organizerName": "Tokyo Auto Salon Association",
+    "isTouristFriendly": true,
+    "fees": {
+      "spectator": {
+        "amount": 3000,
+        "currency": "JPY",
+        "notes": "Example only. Confirm price on official site."
+      }
+    }
+  }
+]
